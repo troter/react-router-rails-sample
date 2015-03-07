@@ -21,5 +21,9 @@ module ReactSample
     # config.i18n.default_locale = :de
 
     config.react.addons = true
+    config.react.jsx_transform_options = {
+      harmony: true,
+      strip_types: true, # for removing Flow type annotations
+    }
   end
 end
