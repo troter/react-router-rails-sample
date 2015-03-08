@@ -9,6 +9,15 @@ GIT
       rails (>= 3.1)
       react-source (~> 0.12)
 
+GIT
+  remote: git://github.com/troter/react-router-rails.git
+  revision: 155f9118d57ca59041f4b13e499b2e6ec47ecafd
+  branch: feature/prerender
+  specs:
+    react-router-rails (0.11.6.1)
+      rails (>= 3.1)
+      react-rails (>= 0.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,12 +48,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (5.1.7)
-      execjs
-      json
-    bootstrap-sass (3.3.3)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.2.19)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -135,12 +138,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.3)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.0)
   react-rails (~> 1.0.0.pre)!
+  react-router-rails!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
