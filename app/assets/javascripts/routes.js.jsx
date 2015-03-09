@@ -55,7 +55,7 @@ var State = React.createClass({
 });
 
 var routes = (
-    <Route handler={App}>
+    <Route handler={App} path='/react-router/'>
         <DefaultRoute handler={Index}/>
         <Route name="state" path="state/:abbr" handler={State}/>
     </Route>
