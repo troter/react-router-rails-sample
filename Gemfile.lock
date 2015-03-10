@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/troter/react-router-rails.git
-  revision: 155f9118d57ca59041f4b13e499b2e6ec47ecafd
+  revision: 75587668343b034a7c326137b818471f13354193
   branch: feature/prerender
   specs:
     react-router-rails (0.11.6.1)
